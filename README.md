@@ -65,7 +65,7 @@ Substitua ou adicione arquivos em `public/images` e atualize o caminho correspon
 Copie `.env.example` para `.env.local` e ajuste:
 
 ```bash
-NEXT_PUBLIC_SITE_URL=https://natfoods.com.br
+NEXT_PUBLIC_SITE_URL=https://natfoodsdaamazonia.com.br
 NEXT_PUBLIC_WHATSAPP_NUMBER=5568992187626
 NEXT_PUBLIC_WHATSAPP_DISPLAY=+55 68 99218-7626
 NEXT_PUBLIC_CONTACT_EMAIL=contato@natfoods.com.br
@@ -82,6 +82,39 @@ O formulario de revendedor usa estado local, validacao basica de WhatsApp e mens
 ## SEO
 
 O projeto inclui metadata por rota, Open Graph, Twitter card, `sitemap.ts`, `robots.ts` e JSON-LD basico para Organization e lista de produtos. Antes de producao, revise dominio, telefone, e-mail, Instagram e imagens oficiais.
+
+## Deploy em VPS Locaweb
+
+Deploy oficial previsto:
+
+- Dominio: `https://natfoodsdaamazonia.com.br`
+- VPS Locaweb: `191.252.185.61`
+- Stack: Ubuntu, Node.js LTS, PM2, Nginx e Certbot/Let's Encrypt.
+- Aplicacao interna: `http://127.0.0.1:3000`
+
+Documentacao completa:
+
+- `docs/deploy-vps-locaweb.md`
+- `docs/go-live-vps-checklist.md`
+- `docs/nginx/natfoodsdaamazonia.com.br.conf`
+
+Fluxo resumido na VPS:
+
+```bash
+ssh root@191.252.185.61
+apt update
+apt install -y git
+git clone https://github.com/rickczs/natfoods.git /var/www/natfoods
+cd /var/www/natfoods
+bash scripts/vps/bootstrap-natfoods.sh
+nano .env.production
+npm ci
+npm run build
+pm2 start ecosystem.config.js
+pm2 save
+```
+
+Depois, configure Nginx e SSL conforme `docs/deploy-vps-locaweb.md`.
 
 ## Observacao sobre npm audit
 
