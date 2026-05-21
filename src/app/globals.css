@@ -4,7 +4,7 @@
 
 :root {
   color-scheme: light;
-  --background: #fffaf0;
+  --background: #fbf6ea;
   --foreground: #173d25;
 }
 
@@ -14,6 +14,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -21,11 +22,19 @@ body {
   background: var(--background);
   color: var(--foreground);
   padding-bottom: env(safe-area-inset-bottom);
+  overflow-x: hidden;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+}
+
+img,
+svg,
+video,
+canvas {
+  max-width: 100%;
 }
 
 ::selection {
@@ -42,6 +51,46 @@ a {
 
 .premium-surface {
   background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.94), rgba(255, 250, 240, 0.96)),
-    radial-gradient(circle at 15% 10%, rgba(244, 196, 48, 0.16), transparent 18rem);
+    linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(251, 246, 234, 0.96)),
+    radial-gradient(circle at 15% 10%, rgba(244, 196, 48, 0.14), transparent 18rem);
+}
+
+.organic-hero {
+  background:
+    radial-gradient(circle at 82% 18%, rgba(244, 196, 48, 0.28), transparent 17rem),
+    radial-gradient(circle at 16% 28%, rgba(118, 167, 19, 0.14), transparent 19rem),
+    linear-gradient(135deg, #fffaf0 0%, #f6eddb 52%, #edf7ef 100%);
+}
+
+.organic-dot-grid {
+  background-image: radial-gradient(rgba(35, 88, 49, 0.14) 1px, transparent 1px);
+  background-size: 18px 18px;
+}
+
+.paper-leaf-surface {
+  background:
+    radial-gradient(circle at 88% 12%, rgba(35, 88, 49, 0.14), transparent 18rem),
+    radial-gradient(circle at 10% 95%, rgba(154, 106, 53, 0.10), transparent 18rem),
+    linear-gradient(135deg, rgba(255, 250, 240, 0.96), rgba(241, 246, 231, 0.92));
+  position: relative;
+}
+
+.paper-leaf-surface::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(115deg, transparent 0 28%, rgba(23, 61, 37, 0.06) 29%, transparent 39%),
+    linear-gradient(75deg, transparent 0 62%, rgba(23, 61, 37, 0.05) 63%, transparent 72%);
+  opacity: 0.65;
+}
+
+.woven-surface {
+  background:
+    radial-gradient(circle at 82% 8%, rgba(255, 255, 255, 0.55), transparent 18rem),
+    radial-gradient(circle at 8% 92%, rgba(76, 51, 26, 0.12), transparent 20rem),
+    repeating-linear-gradient(35deg, rgba(138, 98, 50, 0.18) 0 2px, transparent 2px 28px),
+    repeating-linear-gradient(125deg, rgba(255, 255, 255, 0.34) 0 2px, transparent 2px 30px),
+    linear-gradient(135deg, #d9bd87, #f4e5c3 46%, #c99d62);
 }

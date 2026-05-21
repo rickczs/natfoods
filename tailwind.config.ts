@@ -14,11 +14,18 @@ const config: Config = {
           900: "#0b2518"
         },
         banana: "#f4c430",
+        organic: {
+          50: "#f7fbef",
+          100: "#ebf2dc",
+          600: "#76a713",
+          700: "#377b1a"
+        },
         earth: "#9a6a35",
         cocoa: "#4b3324"
       },
       fontFamily: {
-        sans: ["var(--font-inter)", "Arial", "sans-serif"]
+        sans: ["var(--font-inter)", "Arial", "sans-serif"],
+        display: ["var(--font-display)", "Georgia", "serif"]
       },
       boxShadow: {
         premium: "0 24px 80px rgba(11, 37, 24, 0.14)"

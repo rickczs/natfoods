@@ -7,6 +7,7 @@ export function JsonLd() {
     "@type": "Organization",
     name: siteConfig.name,
     url: siteConfig.url,
+    logo: `${siteConfig.url}/images/logo-natfoods.jpeg`,
     email: siteConfig.email,
     address: {
       "@type": "PostalAddress",
@@ -22,6 +23,39 @@ export function JsonLd() {
       areaServed: "BR",
       availableLanguage: "Portuguese"
     }
+  };
+
+  const website = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: siteConfig.name,
+    url: siteConfig.url,
+    description: "Snacks naturais e premium da Amazônia",
+  };
+
+  const breadcrumb = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Início",
+        item: siteConfig.url
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Produtos",
+        item: `${siteConfig.url}/produtos`
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: "Onde Comprar",
+        item: `${siteConfig.url}/onde-comprar`
+      }
+    ]
   };
 
   const productCollection = {
@@ -50,6 +84,16 @@ export function JsonLd() {
         type="application/ld+json"
         suppressHydrationWarning
         dangerouslySetInnerHTML={{ __html: JSON.stringify(organization) }}
+      />
+      <script
+        type="application/ld+json"
+        suppressHydrationWarning
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(website) }}
+      />
+      <script
+        type="application/ld+json"
+        suppressHydrationWarning
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
       />
       <script
         type="application/ld+json"
