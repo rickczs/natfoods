@@ -9,7 +9,6 @@ import {
   LineChart,
   MapPin,
   PackageCheck,
-  Scale,
   ShieldCheck,
   ShoppingBag,
   Sprout,
@@ -49,21 +48,6 @@ export const products = [
     name: "Canela",
     image: "/images/produto-canela.jpeg",
     description: "Perfil adocicado e acolhedor, com a crocancia premium da Natfoods."
-  },
-  {
-    name: "Lemon Pepper",
-    image: "/images/embalagem-detalhe-1.jpeg",
-    description: "Notas citricas e picantes em uma versao moderna de banana chips."
-  },
-  {
-    name: "Páprica Doce",
-    image: "/images/embalagem-detalhe-2.jpeg",
-    description: "Colorido, suave e perfeito para consumidores que gostam de temperos."
-  },
-  {
-    name: "Páprica Picante",
-    image: "/images/embalagem-detalhe-3.jpeg",
-    description: "Uma opcao intensa para varejo, empórios e marketplaces."
   }
 ];
 
@@ -103,13 +87,13 @@ export const impactCards = [
   },
   {
     title: "Produto regional com escala",
-    description: "Capacidade inicial planejada de 60.000 pacotes por mês, com possibilidade de expansão produtiva.",
-    icon: Scale
+    description: "Capacidade inicial planejada de 750.000 pacotes por mês, com possibilidade de expansão produtiva.",
+    icon: Factory
   },
   {
     title: "Amazônia no mercado nacional",
     description: "Uma marca acreana preparada para disputar espaço no setor de snacks naturais.",
-    icon: Factory
+    icon: Globe2
   }
 ];
 
@@ -162,7 +146,7 @@ export const interestOptions = [
 ];
 
 export const stats = [
-  { label: "pacotes por mês", value: "60 mil" },
+  { label: "pacotes por mês", value: "750.000 mil" },
   { label: "sabores planejados", value: "7" },
   { label: "origem", value: "Acre" }
 ];

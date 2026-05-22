@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Produtos Natfoods | Chips de banana da terra",
-    description: "Linha de snacks naturais com sabores Tradicional, Orégano, Cebola, Canela, Lemon Pepper e Pápricas.",
+    description: "Linha de snacks naturais com sabores Tradicional, Orégano, Cebola e Canela.",
     url: "/produtos",
     type: "website",
     images: [
@@ -35,7 +35,7 @@ export default function ProdutosPage() {
         title="Chips de banana da terra para varejo, empórios e marketplaces"
         description="Produtos crocantes, naturais e com identidade amazônica, prontos para diferentes canais de venda e momentos de consumo."
       >
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
           {products.map((product) => <ProductCard key={product.name} {...product} />)}
         </div>
       </Section>

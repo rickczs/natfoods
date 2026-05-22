@@ -20,7 +20,7 @@ export function Footer() {
       <div className="absolute inset-0 bg-gradient-to-b from-[#f6eedc]/42 via-transparent to-[#2b1d0f]/62" />
       <div className="absolute inset-0 bg-gradient-to-r from-[#f6eedc]/36 via-transparent to-[#f6eedc]/22" />
       <div className="relative z-10 mx-auto max-w-7xl">
-        <div className="rounded-md border border-[#d5b169]/60 bg-[#f6eedc]/12 p-4 shadow-[0_30px_90px_rgba(43,29,13,0.34),inset_0_1px_0_rgba(255,255,255,0.18)] backdrop-blur-[3px] sm:p-6 lg:p-8">
+        <div className="rounded-md border border-[#d5b169]/60 bg-[#f6eedc]/22 p-4 shadow-[0_30px_90px_rgba(43,29,13,0.34),inset_0_1px_0_rgba(255,255,255,0.18)] backdrop-blur-[3px] sm:p-6 lg:p-8">
           <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-[1.1fr_0.85fr_1fr_0.85fr] lg:items-stretch">
             <div className="group relative min-h-[300px] overflow-hidden rounded-md border border-[#ead6ad] bg-[#fffaf0]/96 p-6 shadow-[inset_0_1px_0_rgba(255,255,255,0.9),0_18px_44px_rgba(34,25,12,0.20)] transition duration-500 hover:-translate-y-2 hover:border-[#d0a25b] hover:shadow-[inset_0_1px_0_rgba(255,255,255,0.94),0_30px_70px_rgba(34,25,12,0.28)]">
               <span className="pointer-events-none absolute inset-x-0 top-0 h-24 translate-y-[-120%] bg-gradient-to-b from-white/70 to-transparent transition duration-700 group-hover:translate-y-0" />
@@ -62,15 +62,15 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mx-auto mt-7 max-w-3xl rounded-full bg-[#fffaf0]/72 px-5 py-3 text-center text-sm font-semibold text-[#6f4c24] shadow-[0_14px_34px_rgba(43,29,13,0.14)] backdrop-blur-md">
+        <div className="mx-auto mb-12 mt-7 max-w-2xl rounded-md border border-[#d2a85f]/75 bg-[#fffaf0]/82 px-5 py-4 text-center text-[15px] font-black leading-6 text-[#211508] shadow-[0_18px_46px_rgba(43,29,13,0.30)] backdrop-blur-sm sm:px-7 lg:mb-0">
           <p>© 2026 Natfoods. Estrutura preparada para loja online, leads comerciais e expansão nacional.</p>
-          <p>
+          <p className="mt-1">
             Desenvolvido com inteligência e design por{" "}
             <a
               href="https://www.iaexpo.com.br"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-black text-forest-900 underline decoration-[#9a6a35]/35 underline-offset-4 transition hover:text-[#9a6a35]"
+              className="font-black text-forest-900 underline decoration-[#9a6a35]/55 underline-offset-4 transition hover:text-[#9a6a35]"
             >
               IAEXPO
             </a>
@@ -84,7 +84,7 @@ export function Footer() {
 
 function FooterPanel({ title, icon, children }: { title: string; icon: React.ReactNode; children: React.ReactNode }) {
   return (
-    <div className="group relative min-h-[300px] overflow-hidden rounded-md border border-[#ead6ad] bg-[#fffaf0]/96 p-6 shadow-[inset_0_1px_0_rgba(255,255,255,0.9),0_18px_44px_rgba(34,25,12,0.20)] transition duration-500 hover:-translate-y-2 hover:border-[#d0a25b] hover:shadow-[inset_0_1px_0_rgba(255,255,255,0.94),0_30px_70px_rgba(34,25,12,0.28)]">
+    <div className="group relative min-h-[300px] overflow-hidden rounded-md border border-[#ead6ad] bg-[#fffaf0]/98 p-6 shadow-[inset_0_1px_0_rgba(255,255,255,0.9),0_18px_44px_rgba(34,25,12,0.20)] transition duration-500 hover:-translate-y-2 hover:border-[#d0a25b] hover:shadow-[inset_0_1px_0_rgba(255,255,255,0.94),0_30px_70px_rgba(34,25,12,0.28)]">
       <span className="pointer-events-none absolute inset-x-0 top-0 h-24 translate-y-[-120%] bg-gradient-to-b from-white/70 to-transparent transition duration-700 group-hover:translate-y-0" />
       <span className="pointer-events-none absolute -right-10 -top-10 size-28 rounded-full bg-banana/14 blur-2xl transition duration-700 group-hover:bg-banana/26" />
       <span className="pointer-events-none absolute inset-x-6 top-0 h-px bg-gradient-to-r from-transparent via-white/90 to-transparent" />
