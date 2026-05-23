@@ -55,11 +55,11 @@ export default function SejaRevendedorPage() {
         <div className="relative z-10 mx-auto max-w-7xl">
           <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-end">
             <div className="rounded-md border border-[#f4d384]/55 bg-[#06160d]/84 p-6 text-white shadow-[0_24px_70px_rgba(0,0,0,0.34),inset_0_1px_0_rgba(255,255,255,0.14)] backdrop-blur-md sm:p-8">
-              <p className="text-xs font-black uppercase tracking-[0.32em] text-banana">Parcerias comerciais</p>
+              <p className="text-xs font-black uppercase tracking-[0.2em] text-banana">Parcerias comerciais</p>
               <h1 className="mt-4 font-display text-4xl font-black leading-[1.02] text-[#ffe29a] drop-shadow-[0_3px_12px_rgba(0,0,0,0.55)] sm:text-5xl lg:text-6xl">
                 Leve a Natfoods para sua loja
               </h1>
-              <p className="mt-6 max-w-2xl text-base font-semibold leading-8 text-[#fff8e8] drop-shadow-[0_2px_8px_rgba(0,0,0,0.48)] sm:text-lg">
+              <p className="mt-6 max-w-2xl text-base font-medium leading-8 text-[#fff8e8]/92 drop-shadow-[0_2px_8px_rgba(0,0,0,0.48)] sm:text-lg">
                 Se você é lojista, distribuidor, representante comercial ou atua com marketplaces, a Natfoods quer
                 conversar com você.
               </p>
@@ -90,11 +90,11 @@ export default function SejaRevendedorPage() {
 
           <div className="mt-10 grid gap-8 lg:grid-cols-[0.82fr_1.18fr] lg:items-start">
             <div className="rounded-md border border-[#d8bc79]/55 bg-forest-900 p-6 text-white shadow-[0_24px_70px_rgba(43,29,13,0.24)] sm:p-8">
-              <p className="text-xs font-black uppercase tracking-[0.28em] text-banana">Distribuição nacional</p>
+              <p className="text-xs font-black uppercase tracking-[0.2em] text-banana">Distribuição nacional</p>
               <h2 className="mt-4 font-display text-3xl font-black leading-[1.04] sm:text-4xl">
                 Origem amazônica, presença nacional.
               </h2>
-              <p className="mt-5 text-base font-semibold leading-8 text-white/88">
+              <p className="mt-5 text-base font-medium leading-8 text-white/90">
                 A Natfoods foi pensada para atender o mercado nacional de snacks saudáveis, com distribuição para grandes
                 centros urbanos e canais varejistas. O plano inicial prevê atuação em regiões como Bahia, Goiânia e São
                 Paulo, com expansão gradual para novos mercados.
@@ -108,7 +108,7 @@ export default function SejaRevendedorPage() {
       <section className="paper-leaf-surface relative overflow-hidden px-4 py-16 sm:px-8 lg:py-24">
         <div className="relative z-10 mx-auto max-w-7xl">
           <div className="max-w-3xl">
-            <p className="text-xs font-black uppercase tracking-[0.3em] text-earth">Por que revender</p>
+            <p className="text-xs font-black uppercase tracking-[0.2em] text-earth">Por que revender</p>
             <h2 className="mt-4 font-display text-3xl font-black leading-[1.04] text-forest-900 sm:text-5xl">
               Um snack natural com argumento forte na prateleira
             </h2>
@@ -131,7 +131,7 @@ export default function SejaRevendedorPage() {
         <div className="absolute inset-0 bg-gradient-to-r from-[#06160d]/92 via-[#06160d]/60 to-[#06160d]/26" />
         <div className="relative z-10 mx-auto max-w-7xl">
           <div className="max-w-3xl">
-            <p className="text-xs font-black uppercase tracking-[0.3em] text-banana">Parceiro ideal</p>
+            <p className="text-xs font-black uppercase tracking-[0.2em] text-banana">Parceiro ideal</p>
             <h2 className="mt-4 font-display text-3xl font-black leading-[1.04] text-[#ffe29a] sm:text-5xl">
               Canais que podem crescer com a Natfoods
             </h2>
@@ -140,7 +140,7 @@ export default function SejaRevendedorPage() {
             {partnerProfiles.map((card) => <PremiumCard key={card.title} {...card} tone="dark" />)}
           </div>
           <div className="mt-12 rounded-md border border-[#f4d384]/45 bg-[#06160d]/72 p-5 shadow-[0_24px_70px_rgba(0,0,0,0.28)] backdrop-blur-md sm:p-7">
-            <p className="text-xs font-black uppercase tracking-[0.28em] text-banana">Canais atendidos</p>
+            <p className="text-xs font-black uppercase tracking-[0.2em] text-banana">Canais atendidos</p>
             <h3 className="mt-3 font-display text-2xl font-black text-[#fff1c7] sm:text-3xl">
               Da loja local ao marketplace nacional
             </h3>

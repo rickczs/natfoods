@@ -46,11 +46,11 @@ export default function BlogPage() {
         <div className="relative z-10 mx-auto max-w-7xl">
           <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-end">
             <div className="rounded-md border border-[#f4d384]/55 bg-[#06160d]/86 p-6 shadow-[0_24px_70px_rgba(0,0,0,0.34),inset_0_1px_0_rgba(255,255,255,0.14)] backdrop-blur-md sm:p-8">
-              <p className="text-xs font-black uppercase tracking-[0.32em] text-banana">Conteúdo</p>
+              <p className="text-xs font-black uppercase tracking-[0.2em] text-banana">Conteúdo</p>
               <h1 className="mt-4 font-display text-4xl font-black leading-[1.02] text-[#ffe29a] drop-shadow-[0_3px_12px_rgba(0,0,0,0.55)] sm:text-5xl lg:text-6xl">
                 Amazônia, alimentação natural e oportunidades de venda
               </h1>
-              <p className="mt-6 max-w-2xl text-base font-semibold leading-8 text-[#fff8e8] drop-shadow-[0_2px_8px_rgba(0,0,0,0.48)] sm:text-lg">
+              <p className="mt-6 max-w-2xl text-base font-medium leading-8 text-[#fff8e8]/92 drop-shadow-[0_2px_8px_rgba(0,0,0,0.48)] sm:text-lg">
                 Artigos iniciais para fortalecer a autoridade da Natfoods em snacks naturais, produção regional e canais
                 comerciais.
               </p>

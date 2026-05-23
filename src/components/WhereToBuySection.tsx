@@ -13,7 +13,7 @@ export function WhereToBuySection({ showActions = false }: WhereToBuySectionProp
       <div className="absolute bottom-10 right-12 hidden h-32 w-72 rounded-[50%] bg-[#b58a45]/12 blur-3xl lg:block" />
       <div className="relative z-10 mx-auto max-w-7xl">
         <div className="max-w-[780px]">
-          <p className="text-[14px] font-black uppercase tracking-[0.34em] text-earth">Onde comprar</p>
+          <p className="text-[14px] font-black uppercase tracking-[0.22em] text-earth">Onde comprar</p>
           <h2 className="mt-5 max-w-[720px] font-display text-[34px] font-black leading-[1.02] text-forest-900 sm:text-[52px] lg:text-[58px]">
             Em breve, Natfoods mais perto de você
           </h2>
@@ -55,7 +55,7 @@ export function WhereToBuySection({ showActions = false }: WhereToBuySectionProp
               <span className="relative grid size-11 shrink-0 place-items-center rounded-md border border-[#b28a4a]/45 bg-[#f8efdf] text-earth shadow-[inset_0_1px_0_rgba(255,255,255,0.85),0_7px_14px_rgba(68,47,24,0.16)]">
                 <Icon size={22} strokeWidth={2.15} />
               </span>
-              <h3 className="relative text-[18px] font-black leading-[1.14] text-forest-950">{label}</h3>
+              <h3 className="relative text-[18px] font-black leading-[1.14] text-forest-900">{label}</h3>
             </article>
           ))}
         </div>

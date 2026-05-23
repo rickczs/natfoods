@@ -114,7 +114,7 @@ export default function NossaOrigemPage() {
         <div className="absolute inset-0 bg-gradient-to-b from-[#102a1b]/40 via-[#102a1b]/55 to-[#0b1b12]/85" />
         <div className="relative z-10 mx-auto max-w-[1580px]">
           <div className="mx-auto max-w-3xl text-center">
-            <p className="text-[14px] font-black uppercase tracking-[0.36em] text-banana">Impacto regional</p>
+            <p className="text-[14px] font-black uppercase tracking-[0.22em] text-banana">Impacto regional</p>
             <h2 className="mt-6 font-display text-4xl font-black leading-[1.05] text-[#f4d17a] drop-shadow-[0_4px_12px_rgba(0,0,0,0.55)] sm:text-5xl lg:text-[56px]">
               Mais que um snack: uma oportunidade para a economia amazônica
             </h2>
@@ -129,4 +129,3 @@ export default function NossaOrigemPage() {
     </>
   );
 }
-

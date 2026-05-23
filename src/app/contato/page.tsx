@@ -74,7 +74,7 @@ export default function ContatoPage() {
         <div className="relative z-10 mx-auto max-w-7xl">
           <div className="grid gap-8 lg:grid-cols-[0.92fr_1.08fr] lg:items-end">
             <div className="rounded-md border border-[#d8c39c] bg-[#fffaf0]/92 p-6 shadow-[0_24px_70px_rgba(43,29,13,0.18)] backdrop-blur-md sm:p-8">
-              <p className="text-xs font-black uppercase tracking-[0.32em] text-earth">Contato</p>
+              <p className="text-xs font-black uppercase tracking-[0.2em] text-earth">Contato</p>
               <h1 className="mt-4 font-display text-4xl font-black leading-[1.02] text-forest-900 sm:text-5xl lg:text-6xl">
                 Fale com a Natfoods
               </h1>
@@ -129,11 +129,11 @@ export default function ContatoPage() {
 
           <div className="mt-10 grid gap-8 lg:grid-cols-[0.82fr_1.18fr] lg:items-start">
             <div className="rounded-md border border-[#d8bc79]/55 bg-forest-900 p-6 text-white shadow-[0_24px_70px_rgba(43,29,13,0.22)] sm:p-8">
-              <p className="text-xs font-black uppercase tracking-[0.28em] text-banana">Comercial</p>
+              <p className="text-xs font-black uppercase tracking-[0.2em] text-banana">Comercial</p>
               <h2 className="mt-4 font-display text-3xl font-black leading-[1.04] sm:text-4xl">
                 Compras, revenda e distribuição em um só canal.
               </h2>
-              <p className="mt-5 text-base font-semibold leading-8 text-white/86">
+              <p className="mt-5 text-base font-medium leading-8 text-white/88">
                 Use o formulário para apresentar sua loja, região, canal de venda ou volume estimado. A Natfoods avalia
                 o melhor caminho comercial para cada perfil de parceiro.
               </p>

@@ -15,7 +15,7 @@ export function Section({ eyebrow, title, description, children, className = "",
       <div className="mx-auto max-w-7xl">
         <div className="max-w-3xl">
           {eyebrow ? (
-            <p className={`mb-3 text-xs font-black uppercase tracking-[0.28em] sm:text-sm ${isDark ? "text-banana" : "text-earth"}`}>{eyebrow}</p>
+            <p className={`mb-3 text-xs font-black uppercase tracking-[0.2em] sm:text-sm ${isDark ? "text-banana" : "text-earth"}`}>{eyebrow}</p>
           ) : null}
           <h2 className={`font-display text-3xl font-black leading-[1.04] sm:text-4xl lg:text-5xl ${isDark ? "text-white" : "text-forest-900"}`}>
             {title}

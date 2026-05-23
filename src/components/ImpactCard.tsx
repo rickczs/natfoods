@@ -18,7 +18,7 @@ export function ImpactCard({ title, description, icon: Icon }: ImpactCardProps) 
       <h3 className="relative mt-8 max-w-[270px] text-[22px] font-black leading-[1.13] text-[#e8bd62] drop-shadow-[0_2px_3px_rgba(0,0,0,0.48)]">
         {title}
       </h3>
-      <p className="relative mt-5 max-w-[300px] text-[16px] font-medium leading-[1.68] text-[#fff1c7] drop-shadow-[0_1px_2px_rgba(0,0,0,0.58)] sm:text-[17px]">
+      <p className="relative mt-5 max-w-[300px] text-[16px] font-normal leading-[1.68] text-[#fff8e8]/92 drop-shadow-[0_1px_2px_rgba(0,0,0,0.58)] sm:text-[17px]">
         {description}
       </p>
     </article>

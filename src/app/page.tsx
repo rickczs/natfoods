@@ -56,18 +56,18 @@ export default function Home() {
         <div className="absolute left-0 top-0 h-full w-full bg-gradient-to-r from-[#f8edcf]/92 via-[#f8edcf]/70 to-transparent lg:w-[58%]" />
         <div className="relative z-10 mx-auto grid max-w-7xl gap-10 lg:grid-cols-[0.86fr_1fr] lg:items-center">
           <div>
-            <p className="text-[11px] font-black uppercase tracking-[0.28em] text-[#8a5d24]">Nossa origem</p>
+            <p className="text-[11px] font-black uppercase tracking-[0.2em] text-[#8a5d24]">Nossa origem</p>
             <h2 className="mt-4 max-w-2xl font-display text-3xl font-black leading-[1.04] text-forest-900 drop-shadow-[0_2px_12px_rgba(248,237,207,0.72)] sm:text-5xl lg:text-6xl">
               Nascida no Acre, criada para o Brasil
             </h2>
           </div>
           <div className="rounded-md border border-white/75 bg-[#fff8e8]/86 p-5 shadow-[0_24px_70px_rgba(23,61,37,0.20)] backdrop-blur-xl sm:p-8">
-            <p className="text-base font-bold leading-8 text-forest-900 sm:text-lg">
+            <p className="text-base font-medium leading-8 text-forest-900 sm:text-lg">
               A Natfoods nasceu em Cruzeiro do Sul - Acre, com o propósito de transformar a riqueza da Amazônia em
               alimentos naturais, saborosos e competitivos. A marca carrega a força da banana da terra, da produção
               regional e de um território com enorme potencial econômico.
             </p>
-            <p className="mt-5 text-base font-bold leading-8 text-forest-900 sm:text-lg">
+            <p className="mt-5 text-base font-medium leading-8 text-forest-900 sm:text-lg">
               Do coração da Amazônia para novas prateleiras, a Natfoods quer mostrar que produtos regionais podem
               alcançar mercados nacionais e internacionais sem perder sua essência.
             </p>
@@ -87,7 +87,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-b from-[#102a1b]/35 via-[#102a1b]/45 to-[#0b1b12]/78" />
         <div className="relative z-10 mx-auto max-w-[1580px]">
           <div className="max-w-[880px]">
-            <p className="text-[14px] font-black uppercase tracking-[0.36em] text-banana">Impacto regional</p>
+            <p className="text-[14px] font-black uppercase tracking-[0.22em] text-banana">Impacto regional</p>
             <h2 className="mt-5 font-display text-[34px] font-black leading-[1.02] text-[#f4d17a] drop-shadow-[0_4px_12px_rgba(0,0,0,0.55)] sm:text-[54px] lg:text-[64px]">
               Mais que um snack: uma oportunidade para a economia amazônica
             </h2>
@@ -113,7 +113,7 @@ export default function Home() {
         </div>
         <div className="relative z-10 mx-auto grid max-w-7xl gap-8 lg:grid-cols-[0.85fr_1.15fr] lg:items-center">
           <div>
-            <p className="text-xs font-black uppercase tracking-[0.28em] text-earth sm:text-sm">Seja revendedor</p>
+            <p className="text-xs font-black uppercase tracking-[0.2em] text-earth sm:text-sm">Seja revendedor</p>
             <h2 className="mt-3 max-w-xl font-display text-4xl font-black leading-[1.02] text-forest-900 sm:text-5xl">
               Leve a Natfoods para sua loja
             </h2>
@@ -122,7 +122,7 @@ export default function Home() {
               conversar com você.
             </p>
             <div className="mt-8 rounded-md border border-[#d8bc79]/55 bg-forest-900 p-5 text-white shadow-[inset_0_1px_0_rgba(255,255,255,0.16),0_16px_0_rgba(57,39,20,0.16),0_28px_65px_rgba(46,32,16,0.22)] sm:p-7">
-              <p className="text-base font-semibold leading-7 text-white sm:text-lg sm:leading-8">
+              <p className="text-base font-medium leading-7 text-white/92 sm:text-lg sm:leading-8">
                 A Natfoods foi pensada para atender o mercado nacional de snacks saudáveis, com distribuição para grandes
                 centros urbanos e canais varejistas. O plano inicial prevê atuação em regiões como Bahia, Goiânia e São
                 Paulo, com expansão gradual para novos mercados.
@@ -143,12 +143,12 @@ export default function Home() {
           className="object-cover object-center"
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-[#fbf6ea]/34" />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#fbf6ea]/78 via-[#fbf6ea]/42 to-[#fbf6ea]/10" />
-        <div className="absolute inset-x-0 top-0 h-full bg-gradient-to-b from-[#fbf6ea]/58 via-transparent to-[#fbf6ea]/52" />
+        <div className="absolute inset-0 bg-[#fbf6ea]/58" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#fbf6ea]/86 via-[#fbf6ea]/62 to-[#fbf6ea]/32" />
+        <div className="absolute inset-x-0 top-0 h-full bg-gradient-to-b from-[#fbf6ea]/72 via-[#fbf6ea]/18 to-[#fbf6ea]/66" />
         <div className="relative z-10 mx-auto max-w-7xl">
           <div className="max-w-3xl rounded-md border border-[#e2d6bd] bg-[#fffaf0] p-5 shadow-[0_24px_70px_rgba(23,61,37,0.16)] sm:p-6">
-            <p className="mb-3 text-xs font-black uppercase tracking-[0.28em] text-earth sm:text-sm">Blog</p>
+            <p className="mb-3 text-xs font-black uppercase tracking-[0.2em] text-earth sm:text-sm">Blog</p>
             <h2 className="font-display text-3xl font-black leading-[1.04] text-forest-900 sm:text-4xl lg:text-5xl">
               Conteúdos sobre Amazônia, alimentação natural e oportunidades de venda
             </h2>

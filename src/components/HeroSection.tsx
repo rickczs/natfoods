@@ -15,9 +15,10 @@ export function HeroSection() {
         className="object-cover object-center"
         sizes="100vw"
       />
-      <div className="absolute inset-0 bg-[#f7efe0]/88 lg:hidden" />
-      <div className="absolute inset-0 bg-gradient-to-r from-[#f7efe0]/98 via-[#f7efe0]/76 to-[#f7efe0]/0" />
-      <div className="absolute inset-0 bg-gradient-to-t from-[#f3ead8]/92 via-transparent to-transparent" />
+      <div className="absolute inset-0 bg-[#f7efe0]/94 lg:hidden" />
+      <div className="absolute inset-0 bg-gradient-to-r from-[#f7efe0]/98 via-[#f7efe0]/84 to-[#f7efe0]/10" />
+      <div className="absolute inset-0 bg-gradient-to-t from-[#f3ead8]/96 via-[#f3ead8]/42 to-transparent" />
+      <div className="absolute inset-y-0 left-0 hidden w-[57%] bg-[#f7efe0]/76 lg:block" />
       <div className="pointer-events-none absolute left-6 top-1/2 z-10 hidden size-12 -translate-y-1/2 place-items-center rounded-full bg-[#f6efd9]/80 text-2xl font-black text-[#9b762c] shadow-[0_18px_45px_rgba(73,53,16,0.18)] backdrop-blur xl:grid">
         ‹
       </div>
@@ -26,17 +27,17 @@ export function HeroSection() {
       </div>
       <div className="mx-auto grid min-h-[calc(100vh-10rem)] max-w-7xl items-center sm:min-h-[calc(100vh-12rem)] lg:min-h-[calc(100vh-16rem)]">
         <div className="relative z-10 max-w-2xl">
-          <div className="mb-4 inline-flex max-w-full items-center gap-2 rounded-sm border border-[#8a6b2f]/15 bg-[#f7efdd]/70 px-3 py-1.5 text-[10px] font-black uppercase tracking-[0.18em] text-[#8a6b2f] shadow-sm backdrop-blur sm:text-[11px]">
+          <div className="mb-4 inline-flex max-w-full items-center gap-2 rounded-sm border border-[#8a6b2f]/20 bg-[#fff8e8]/92 px-3 py-1.5 text-[10px] font-black uppercase tracking-[0.16em] text-[#755117] shadow-sm backdrop-blur sm:text-[11px]">
             <Leaf size={16} />
             <span className="min-w-0">Produzido em Cruzeiro do Sul - Acre</span>
           </div>
-          <h1 className="max-w-3xl font-display text-4xl font-black leading-[0.98] text-[#7b5b18] sm:text-5xl lg:text-6xl xl:text-7xl">
+          <h1 className="max-w-3xl font-display text-4xl font-black leading-[1.02] text-[#6f4d11] drop-shadow-[0_2px_10px_rgba(255,248,232,0.82)] sm:text-5xl lg:text-6xl xl:text-7xl">
             Natural de verdade, direto da Amazônia
           </h1>
-          <p className="mt-5 max-w-2xl text-lg font-semibold leading-7 text-[#2f3325] sm:text-xl">
+          <p className="mt-5 max-w-2xl text-lg font-semibold leading-7 text-[#14291b] sm:text-xl">
             A essência da selva, em cada pedaço.
           </p>
-          <p className="mt-4 max-w-2xl text-sm font-medium leading-7 text-[#2f3325]/86 sm:text-base">
+          <p className="mt-4 max-w-2xl text-sm font-medium leading-7 text-[#14291b]/92 sm:text-base">
             Deleite-se com nossos chips de banana da terra - crocantes, artesanais e procedentes de colheitas
             sustentáveis em Cruzeiro do Sul - Acre. Um snack puro, com a identidade vibrante da Amazônia.
           </p>
@@ -56,7 +57,7 @@ export function HeroSection() {
           </div>
           <div className="mt-8 grid gap-2 sm:grid-cols-2">
             {trustHighlights.map(({ title, icon: Icon }) => (
-              <div key={title} className="flex items-center gap-2 rounded-md border border-[#8a6b2f]/12 bg-[#f7efdd]/58 p-3 text-xs font-bold text-[#3b3a2e] shadow-sm backdrop-blur-md">
+              <div key={title} className="flex items-center gap-2 rounded-md border border-[#8a6b2f]/18 bg-[#fff8e8]/88 p-3 text-xs font-bold text-[#27331f] shadow-sm backdrop-blur-md">
                 <Icon size={15} className="text-[#a87a22]" />
                 {title}
               </div>
@@ -64,7 +65,7 @@ export function HeroSection() {
           </div>
           <div className="mt-8 grid max-w-xl grid-cols-1 gap-3 sm:grid-cols-3">
             {stats.map((stat) => (
-              <div key={stat.label} className="rounded-md border border-white/45 bg-[#f9f1dc]/62 p-4 shadow-[0_18px_42px_rgba(85,63,22,0.12)] backdrop-blur-md first:bg-forest-800 first:text-white">
+              <div key={stat.label} className="rounded-md border border-white/60 bg-[#fff8e8]/88 p-4 shadow-[0_18px_42px_rgba(85,63,22,0.14)] backdrop-blur-md first:bg-forest-800 first:text-white">
                 <div className="text-xl font-black text-inherit sm:text-2xl">{stat.value}</div>
                 <div className="mt-1 text-[10px] font-bold uppercase tracking-[0.16em] text-current opacity-70">{stat.label}</div>
               </div>

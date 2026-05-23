@@ -16,11 +16,11 @@ export function ValuePropositionSection() {
       <div className="absolute inset-0 bg-gradient-to-t from-[#8e5a35]/78 via-transparent to-transparent" />
       <div className="relative z-10 mx-auto max-w-7xl">
         <div className="max-w-3xl rounded-md bg-[#061a10]/44 p-5 shadow-[0_22px_70px_rgba(0,0,0,0.22)] backdrop-blur-sm sm:p-6 lg:p-8">
-          <p className="text-xs font-black uppercase tracking-[0.3em] text-[#f1d384] drop-shadow-sm">Proposta de valor</p>
+          <p className="text-xs font-black uppercase tracking-[0.22em] text-[#f1d384] drop-shadow-sm">Proposta de valor</p>
           <h2 className="mt-3 max-w-2xl font-display text-3xl font-black leading-[1.04] text-[#ffe29a] drop-shadow-[0_3px_18px_rgba(0,0,0,0.32)] sm:text-4xl lg:text-5xl">
             O sabor da Amazônia em cada crocância
           </h2>
-          <p className="mt-5 max-w-2xl text-base font-semibold leading-7 text-[#fff8e8] drop-shadow-[0_2px_12px_rgba(0,0,0,0.42)]">
+          <p className="mt-5 max-w-2xl text-base font-medium leading-7 text-[#fff8e8] drop-shadow-[0_2px_12px_rgba(0,0,0,0.42)]">
             A Natfoods transforma a banana da terra em um snack premium, crocante e natural. Feito com ingredientes
             selecionados, sem conservantes, sem corantes e com uma proposta que valoriza a produção regional amazônica.
           </p>
@@ -44,7 +44,7 @@ export function ValuePropositionSection() {
                 <Icon size={23} />
               </div>
               <h3 className="relative mt-5 text-xl font-black leading-tight text-[#f3c968] drop-shadow-[0_2px_4px_rgba(0,0,0,0.55)]">{title}</h3>
-              <p className="relative mt-4 text-sm font-semibold leading-6 text-[#fff2c7] drop-shadow-[0_1px_2px_rgba(0,0,0,0.58)]">{description}</p>
+              <p className="relative mt-4 text-sm font-medium leading-6 text-[#fff8e8]/90 drop-shadow-[0_1px_2px_rgba(0,0,0,0.58)]">{description}</p>
             </article>
           ))}
         </div>
